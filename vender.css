@@ -1,0 +1,119 @@
+/* Reset de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo y texto básico */
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsla(0, 0%, 96%, 0.901);
+    color: #0095FF;
+}
+
+header {
+    background-color: #0095FF;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.intro {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.intro h1 {
+    font-size: 2.5em;
+}
+
+.intro .cta-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#services {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.service {
+    margin-bottom: 30px;
+}
+
+#portfolio {
+    background-color: #e0e0e0;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.portfolio-item {
+    display: inline-block;
+    width: 30%;
+    margin: 15px;
+}
+
+#contact {
+    padding: 50px 20px;
+    background-color: #333;
+    color: white;
+}
+
+#contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#contact-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+#contact-form input, #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+#contact-form button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
